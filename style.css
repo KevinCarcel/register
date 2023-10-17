@@ -1,0 +1,59 @@
+body{
+  margin: 0;
+  background-image:url(image/logo-real.jpg) ;
+  background-image: cover;
+  background-image: center;
+}
+.erreurMessage{
+  color: red;
+  font-style: italic;
+  display: none;
+}
+label{
+  color: white;
+  align-self: center;
+  margin-bottom: 5px;
+}
+input{
+  margin-bottom: 14px;
+}
+
+form{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 5%;
+  background-color: rgba(255, 255, 255, 0.234);
+  padding-bottom: 50px;
+}
+h1{
+  color: white;
+  text-align: center;
+}
+
+.elem-form{
+  width: 70%;
+  align-self: center;
+  background-color: rgba(128, 128, 128, 0.115);
+  color: white;
+}
+
+button{
+  width: fit-content;
+  align-self: center;
+  color: white;
+  background-color: rgba(128, 128, 128, 0.142);
+}
+
+.miss{
+  align-self: center;
+}
+
+@media screen and (max-width:700px){
+  form{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}

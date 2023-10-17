@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="password-form">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <form id="form1" onsubmit="return validerForm()" name="form1">
+    <h1>Register</h1>
+    <label for="nom"> Votre nom :</label>
+    <input type="text" id="nom" class="nom elem-form" name="nom" minlength="3" required>
+    <span id="missNom" class="miss"></span>
+    <br>
+    <label for="prenom"> Votre prénom :</label>
+    <input type="text" id="prenom" class="prenom elem-form" name="prenom" minlength="3" required>
+    <span id="missPrenom" class="miss"></span>
+    <br>
+    <label for="email"> Votre adresse-mail :</label>
+    <input type="email" id="email" class="email elem-form" name="email" required>
+    <span id="missEmail" class="miss"></span>
+    <br>
+    <label for="password">Votre mot de passe :</label>
+    <input type="password" id="password" class="password elem-form" name="password" required>
+    <span id="missPassword" class="miss"></span>
+    <br>
+    <label for="password-verif">Confirmer votre mot de passe :</label>
+    <input type="password" id="password-verif" class="password-verif elem-form" name="password-verif" required>
+    <span id="missPasswordVerif" class="miss"></span>
+    <br>
+
+    <button type="submit" id="btn-valider">S'enregistrer</button>
+  </form>
+  <script src="javascript.js"></script>
+</body>
+
+</html>
